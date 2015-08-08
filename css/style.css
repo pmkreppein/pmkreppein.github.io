@@ -1,0 +1,97 @@
+/* Headshot */
+
+.headshot {
+	height: 200px;
+	width: auto;
+	border-radius: 15px;
+}
+
+
+
+/* Center Text Alignment */
+
+.center-align {
+	text-align: center;
+}
+
+/* Social Icon UL */
+
+.social-icons li {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 4%;
+}
+
+.social-icons img {
+	height: 50px;
+}
+
+
+
+
+/* Media Query to fix Jumbotron Scrunching on mobile */
+
+@media (max-width: 1000px) {
+	.headshot, .jumbotron-bio {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.jumbotron-bio {
+		margin: 5%;
+	}
+	.social-icons  {
+		padding-left: 0;
+	}
+	
+}
+
+
+/*Legend Labels*/
+.legendWrapper {
+	display: inline-block;
+}
+
+#chartLegend {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.legendLabelText {
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+
+.legendLabelColor {
+	height: 30px;
+	width: 30px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+	#chartLegend {
+		margin-top: -20px;
+	}
+	.legendWrapper {
+		display: block;
+		margin-bottom: 5px;
+	}
+}
+
+ /*Contact Page Styles*/
+ 
+ .contact-info {
+ 	text-align: center;
+ }
+
+			
+
+
+
+

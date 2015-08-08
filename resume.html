@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Pete Kreppein</title>
+</head>
+
+<body>
+	<div class="container">
+		<!-- NavBar Begin -->
+
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">Pete Kreppein</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a>
+					</li>
+					<li class="active"><a href="resume.html">Resume</a>
+					</li>
+					<li><a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<!-- NavBar End -->
+
+
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="panel panel-danger">
+					<div class="panel-body center-align">
+						<p>This page is not meant to be a line-by-line clone of my resume. For that, you can
+							<a href="http://linkedin.com/in/pmkreppein" target="_blank">check out my LinkedIn.</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="bio" class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<ul class="nav nav-tabs stackable">
+						<li role="presentation" class="active"><a href="#bio">Bio</a></li>
+						<li role="presentation"><a href="#work">Selected Work History</a></li>
+						<li role="presentation"><a href="#treehouse">Treehouse Progress</a></li>
+						<li role="presentation"><a href="#coding-skills">Coding Skills</a></li>
+					</ul>
+					</div>
+					<div class="panel-body">
+						<p>Semi-recent University at Albany journalism graduate, in the process of reinventing myself to work and excel in tech. Currently working as a help desk technician by day, learning to code by night. Currently learning HTML, JavaScript, CSS, Python/Flask,
+							Ruby/Rails, and iOS Developent (both Objective-C and Swift). For more on my coding skills, <a class="smooth" href="#coding-skills">you can look here.</a>
+						</p>
+
+						<p>Outside of work, I enjoy drinking good coffee and beer, cooking, travel, and meeting new people. I am a licensed amateur radio operator, with a call sign of KC2NEX.</p>
+						<p>December 2013 graduate of <a href="http://albany.edu" target="_blank">the University at Albany</a> with a degree in
+						Journalism.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="work" class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<ul class="nav nav-tabs stackable">
+						<li role="presentation"><a href="#bio">Bio</a></li>
+						<li role="presentation" class="active"><a href="#work">Selected Work History</a></li>
+						<li role="presentation"><a href="#treehouse">Treehouse Progress</a></li>
+						<li role="presentation"><a href="#coding-skills">Coding Skills</a></li>
+					</ul>
+					</div>
+					<div class="panel-body">
+						<p>Clinical Support Specialist, <a href="http://www.icumedicine.com" target="_blank">AdvancedICU Care</a></p>
+						<ul>
+							<li>Provide general IT support for Doctors, PA’s, NP’s, and RN’s in a 24/7 telemedicine environment.</li>
+						</ul>
+						<p>Operator Support Technician, <a href="http://chyronhego.com" target="_blank">ChyronHego</a></p>
+						<ul>
+							<li>Provided hardware/software support for a baseball and player tracking system 
+								deployed at all 30 MLB stadiums that gathers precise data and stats during baseball games.</li>
+						</ul>
+						<p>Help Desk Technician, State of New York</p>
+						<ul>
+							<li>Provided telephone help desk support for a New York State public safety agency.  Worked
+							extensively with Active Directory, Citrix, IBM Mainframe, ServiceNow.</li>
+						</ul>
+						<p>Network Technician, <a href="http://albany.edu" target="_blank">University at Albany</a></p>
+						<ul>
+							<li>Provided field network support at public university with an enrollment of nearly 19,000.
+							Supported a network composed of hundreds of Cisco switches, wireless access points, and 
+							associated routers and controllers.  Managed and trained junior staff.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<div class="row">
+			<div id="treehouse" class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<ul class="nav nav-tabs stackable">
+						<li role="presentation"><a href="#bio">Bio</a></li>
+						<li role="presentation"><a href="#work">Selected Work History</a></li>
+						<li role="presentation" class="active"><a href="#treehouse">Treehouse Progress</a></li>
+						<li role="presentation"><a href="#coding-skills">Coding Skills</a></li>
+					</ul>
+					</div>
+					<div class="panel-body">
+						<p>I am currently taking courses on a website called <a href="http://teamtreehouse.com" target="_blank">Treehouse.</a>  It's a 
+						great website for learning how to code, and is responsible for teaching most of what I know about coding.  Treehouse
+						allows students to earn points based on how many courses you take and pass.  The more points you have in a topic, the
+						more courses you've successfully completed.</p>
+						<p>Below is a dynamicaly-updating pie chart of my progress.  It is built using the super-awesome JavaScript charting library
+						called <a href="http://www.chartjs.org/" target="_blank">ChartJS</a>.  The data backing the chart is JSON data fetched from Treehouse using a jQuery 
+						<code>$.ajax()</code> call.   
+						</p>
+						<p>A note about the colors for the pie chart: they are automagically generated using a script I wrote, so if some of them clash (or 
+						sections of the pie use the same color) don't panic.  Just refresh the page, and the pie chart will be in a whole different set 
+						of colors.  Why not give it a whirl now?  You can also hover over the sections of the pie chart for some handy tooltips.</p>
+						<div class="pieChart"><canvas id="myChart" width="400" height="300">
+						</canvas>
+						</div>	
+						<div id="chartLegend"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="coding-skills" class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<ul class="nav nav-tabs stackable">
+						<li role="presentation"><a href="#bio">Bio</a></li>
+						<li role="presentation"><a href="#work">Selected Work History</a></li>
+						<li role="presentation"><a href="#treehouse">Treehouse Progress</a></li>
+						<li role="presentation" class="active"><a href="#coding-skills">Coding Skills</a></li>
+					</ul>
+					</div>
+					<div class="panel-body">
+					<p>
+					Though I am still somewhat new to the world of web development, I have already ammassed a signifficant knowledge base that will
+					help me to continue to grow in the world of web development.  
+					</p>
+					Currently, I have a solid working knowledge of HTML, JavaScript, and CSS.  In addition, I have a solid knowledge of 
+					many CSS frameworks, including Bootstrap (what this site was built on), ZURB Foundation, Semantic UI, and jQuery.</p>
+					<p>I have a moderate knowledge of Python and Ruby, and want to venture into perhaps learning some Rails, Django, and Flask.
+					I am also quite daft at Linux/Unix server administration, as well as all of the major cloud hosting vendors (Digital Ocean, 
+					AWS, AppEngine, Heroku, etc.)
+					</p>
+					For the immediate future, though, I plan on studying an isomorphic JavaScript framework called <a href="http://meteor.com" target="_blank">Meteor</a>.
+					Though it may not call itself a full-stack JavaScript framework, it's about as full-stack as they come.  This framework allows one to 
+					build complex, sprite, and sustainable real-time web applications.  Plus, it comes "batteries included," with easy addins that allow common
+					tasks such as enabling OAuth, and more challenging tasks like making a mobile web app as easy as a few lines of code.</p>
+					<p>As I continue my learning adventure, I encourage you to check back to find out all the latest things I've explored, and to see
+					some sample projects of what I can do.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default social-panel">
+					<div class="panel-body">
+						<ul class="social-icons center-align">
+							<li>
+								<a href="http://linkedin.com/in/pmkreppein" target="_blank">
+									<img src="svg/linkedin.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="http://twitter.com/pmkreppein" target="_blank">
+									<img src="svg/twitter.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="http://facebook.com/pmkreppein" target="_blank">
+									<img src="svg/facebook.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="http://teamtreehouse.com/petermkreppein" target="_blank">
+									<img src="svg/treehouse.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="http://github.com/pmkreppein" target="_blank">
+									<img src="svg/github.svg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="panel-footer center-align">Get in Touch</div>
+				</div>
+			</div>
+		</div>
+		
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<p class="center-align">Website Copyright &copy 2015 Peter M Kreppein</p>
+				<p class="text-muted center-align">Last Revised: 8/8/15</p>
+			</div>
+		</footer>
+		
+	</div>
+	
+</body>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/nav-tab-reclass.js"></script>
+<script src="js/smooth-scroll.js"></script>
+<script src="js/chart.js"></script>
+<script type="text/javascript" src="js/treehouseGraph.js"></script>
+</html>
