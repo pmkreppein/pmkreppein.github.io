@@ -8,7 +8,7 @@ var randomColor = function(){
 
 
 $.ajax({
-	url: "http://teamtreehouse.com/petermkreppein.json",
+	url: "https://teamtreehouse.com/petermkreppein.json",
 	dataType: "text",
 	success: function(data){
 		var json = $.parseJSON(data);
